@@ -5,7 +5,7 @@ var workers = {
         "Description"],
     1: ["Optimus Prime",
         "Autobot",
-        "&250/hr",
+        "$250/hr",
         "Optimus Prime is the largest, strongest and most courageous of all Autobots, he is also their leader. Feels his role is the protection of all life, including Earth-life. Good for leading people, reconnaissance, moving heavy items, fighting other giant robots."],
     2: ["Sentinel Prime",
         "Autobot",
@@ -21,7 +21,7 @@ var workers = {
         "The Autobots' medical officer who transforms into a search and rescue 2004 Hummer H2. Best suited for dangerous situations, perhaps as part of a convoy for a high-profile celebrity."],
     5: ["The Fallen",
         "Decepticon",
-        "$/hr",
+        "$300/hr",
         "He is capable of opening Space Bridges at will, and he also has the ability to wield telekinesis, and wields a metal spear as a melee weapon. He has a passion for destroying worlds, and is best suited for conquests and destruction."],
     6: ["Megatron",
         "Decepticon",
@@ -33,7 +33,7 @@ var workers = {
         "Megatron's second-in-command who transforms into a Lockheed Martin F-22 Raptor jet. He is a powerful and technologically advanced air commander. He is also a well-known philosopher, and is great at talking to people and helping them get through their problems."],
     8: ["Barricade",
         "Decepticon",
-        "$/hr",
+        "$125/hr",
         "A Decepticon scout who transforms into a black Saleen S281 police car. Barricade can hold a second smaller transformer in a compartment on his chest. Due to his skill at impersonating authority he is good at getting into restricted areas. He's like the friend that knows the owners everywhere."]
 };
 
@@ -44,7 +44,8 @@ function getFormData() {
     str += "Last name: " + document.getElementById("lastname").value.trim() + "<br />";
     str += "City: " + document.getElementById("city").value.trim() + "<br />";
     str += "State: " + document.getElementById("state").value.trim() + "<br />";
-    str += "<hr /><b>Your perfect match:</b><br />" + workers["1"][0];
+    str += "<hr /><b>Your perfect match is " +  workers["1"][0] + "</b><br />They are a " + workers["1"][1] + " and costs " + workers["1"][2] + ".<br />";
+    str += "Description: " + workers["1"][3];
     document.getElementById("form_article").style.display = "none";
     return str;
 }
