@@ -6,3 +6,5 @@ Use the new file button, give it a name up top, enter text, save("commit") at th
 
 ##Edit a file
 Open it up, click the edit pencil thing in the upper right, edit, the commit again
+
+Try messing with this readme to practice if you want
