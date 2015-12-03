@@ -46,7 +46,7 @@ function getFormData() {
     str += "State: " + document.getElementById("state").value.trim() + "<br />";
     str += "<hr /><b>Your perfect match is " +  workers["1"][0] + "</b><br />They are a " + workers["1"][1] + " and costs " + workers["1"][2] + ".<br />";
     str += "Description: " + workers["1"][3];
-    document.getElementById("form_article").style.display = "none";
+    //document.getElementById("form_article").style.display = "none";
     return str;
 }
 function getHelp() {
