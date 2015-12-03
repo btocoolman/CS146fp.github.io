@@ -60,20 +60,20 @@ function getFormData() {
     str += "Description: " + workers["1"][3];
     */
     //document.getElementById("form_article").style.display = "none";
-    str+= "First: " + fname;
-    str+= "Last: " + lname;
-    str+= "Address 1: " + address1;
-    str+= "Address 2: " + address2;
-    str+= "Phone: " + phonenumber;
-    str+= "City: " + city;
-    str+= "State: " + state;
-    str+= "Zip: " + zipcode;
-    str+= "Service: " + service;
-    str+= "Date: " + date_needed;
+    str+= "First: " + fname + "<br />";
+    str+= "Last: " + lname + "<br />";
+    str+= "Address 1: " + address1 + "<br />";
+    str+= "Address 2: " + address2 + "<br />";
+    str+= "Phone: " + phonenumber + "<br />";
+    str+= "City: " + city + "<br />";
+    str+= "State: " + state + "<br />";
+    str+= "Zip: " + zipcode + "<br />";
+    str+= "Service: " + service + "<br />";
+    str+= "Date: " + date_needed + "<br />";
     return str;
 }
 function getHelp() {
     "use strict";
     var formData = getFormData();
-    document.getElementById("form_article").innerHTML = formData;
+    document.getElementById("form-article").innerHTML = formData;
 }
