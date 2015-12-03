@@ -77,5 +77,6 @@ function getFormData() {
 function getHelp() {
     "use strict";
     var formData = getFormData();
-    document.getElementById("form-article").innerHTML = formData;
+    document.getElementById("form-article").style.display = "none";
+    document.getElementById("resp-article").innerHTML = formData;
 }
