@@ -45,10 +45,10 @@ function getFormData() {
     var address2 = document.getElementById("address2").value.trim();
     var phonenumber = document.getElementById("phonenumber").value.trim();
     var city = document.getElementById("city").value.trim();
-    var state = document.getElementById("state");
+    var state = document.getElementById("state").value;
     var zipcode = document.getElementById("zipcode").value.trim();
-    var service = document.getElementById("service");
-    var date_needed = document.getElementById("date_needed");
+    var service = document.getElementById("service").value;
+    var date_needed = document.getElementById("date_needed").value;
     var str = "<h3><b>Response</b></h3>";
     /*
     str += "First name: " + fname + "<br />";
