@@ -39,7 +39,7 @@ var workers = {
 
 function getFormData() {
     "use strict";
-    var str = "<h3><b>Response</b></h3><br />";
+    var str = "<h3><b>Response</b></h3>";
     str += "First name: " + document.getElementById("firstname").value.trim() + "<br />";
     str += "Last name: " + document.getElementById("lastname").value.trim() + "<br />";
     str += "City: " + document.getElementById("city").value.trim() + "<br />";
