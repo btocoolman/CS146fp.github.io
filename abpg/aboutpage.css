@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	z-index: 0;
+}
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background: linear-gradient(to bottom, green, lightgreen);
+	background-attachment: fixed;
+}
+
+@font-face {
+	font-family: "Bodoni";
+	src: url(../bodoniMtBlack.ttf);
+}
+
+nav {
+	background-color: rgba(214,158,101,.6);
+	border-radius: 0 0 10px 10px;
+	display: table;
+	width: 30%;
+	padding: 4px;
+	z-index: 1;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+nav a:link {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:active {
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+nav>ul {
+	display: table-row;
+	text-align: center;
+	list-style: none;
+}
+
+nav>ul>li {
+	font-family: "Bodoni";
+	font-size: 1.5em;
+	display: table-cell;
+}
+
+#changing_image {
+	width: 100%;
+	bottom: 70px;
+	min-width: 768px;
+}
+
+.top {
+	z-index: 0;
+	height: 40vh;
+	width: 100vw;
+	padding: 0px auto;
+	overflow: hidden;
+}
+
+#content {
+	margin: 10px;
+	background: white;
+	padding: 50px 15px;
+	border: 5px;
+	border-radius: 20px;
+}
+
+#company {
+	width: 100%;
+	text-align: center;
+	margin: 10px 0;
+}
+
+#company>h1 {
+	font-size: 3em;
+}
+
+#company>p {
+	font-size: 1.4em;
+}
+
+p {
+	margin-top: 5px;
+}
+
+.administrators {
+	margin: 70px 25%;
+}
+
+.administrators>h1{
+	font-size: 2em;
+	text-align: center;
+	margin: 15px 0;
+
+}
+
+.administrators img {
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+.administrators h2 {
+	text-align: center;
+	margin: 15px 0;
+}
+
+.administrators article {
+	margin: 15px 0;
+}
+
+.Person {
+	margin: 10px 0; 
+}
+
+.transformers {
+	margin: 100px 15%;
+}
+
+.transformers>h1 {
+	text-align: center;
+	font-size: 2em;
+}
+
+.transformers article{
+	margin: 10px 0;
+}
+
+.transformers img {
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+}
