@@ -39,14 +39,37 @@ var workers = {
 
 function getFormData() {
     "use strict";
+    var fname = document.getElementById("firstname").value.trim();
+    var lname = document.getElementById("lastname").value.trim();
+    var address1 = document.getElementById("address1").value.trim();
+    var address2 = document.getElementById("address2").value.trim();
+    var phonenumber = document.getElementById("phonenumber").value.trim();
+    var city = document.getElementById("city").value.trim();
+    var state = document.getElementById("state");
+    var zipcode = document.getElementById("zipcode").value.trim();
+    var service = document.getElementById("service");
+    var date_needed = document.getElementById("date_needed");
     var str = "<h3><b>Response</b></h3>";
-    str += "First name: " + document.getElementById("firstname").value.trim() + "<br />";
+    /*
+    str += "First name: " + fname + "<br />";
     str += "Last name: " + document.getElementById("lastname").value.trim() + "<br />";
     str += "City: " + document.getElementById("city").value.trim() + "<br />";
     str += "State: " + document.getElementById("state").value.trim() + "<br />";
-    str += "<hr /><b>Your perfect match is " +  workers["1"][0] + "</b><br />They are a " + workers["1"][1] + " and costs " + workers["1"][2] + ".<br />";
+    str += "<hr /><b>Your perfect match is " +  workers["1"][0] + "</b><br />They are a " + workers["1"][1] + " and costs "
+    + workers["1"][2] + ".<br />";
     str += "Description: " + workers["1"][3];
+    */
     //document.getElementById("form_article").style.display = "none";
+    str+= "First: " + fname;
+    str+= "Last: " + lname;
+    str+= "Address 1: " + address1;
+    str+= "Address 2: " + address2;
+    str+= "Phone: " + phonenumber;
+    str+= "City: " + city;
+    str+= "State: " + state;
+    str+= "Zip: " + zipcode;
+    str+= "Service: " + service;
+    str+= "Date: " + date_needed;
     return str;
 }
 function getHelp() {
