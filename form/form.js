@@ -39,18 +39,18 @@ var workers = {
 
 function getFormData() {
     "use strict";
-    var str = "<h3><b>Response</b></h3><br />";
+    var str = "<h3><b>Response</b></h3>";
     str += "First name: " + document.getElementById("firstname").value.trim() + "<br />";
     str += "Last name: " + document.getElementById("lastname").value.trim() + "<br />";
     str += "City: " + document.getElementById("city").value.trim() + "<br />";
     str += "State: " + document.getElementById("state").value.trim() + "<br />";
     str += "<hr /><b>Your perfect match is " +  workers["1"][0] + "</b><br />They are a " + workers["1"][1] + " and costs " + workers["1"][2] + ".<br />";
     str += "Description: " + workers["1"][3];
-    document.getElementById("form_article").style.display = "none";
+    //document.getElementById("form_article").style.display = "none";
     return str;
 }
 function getHelp() {
     "use strict";
     var formData = getFormData();
-    document.getElementById("response_article").innerHTML = formData;
+    document.getElementById("form_article").innerHTML = formData;
 }
