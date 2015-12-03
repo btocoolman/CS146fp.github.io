@@ -8,11 +8,17 @@ body {
 	margin: 0;
 	background: linear-gradient(to bottom, green, lightgreen);
 	background-attachment: fixed;
+	font-family: "Roboto";
 }
 
 @font-face {
 	font-family: "Bodoni";
 	src: url(../bodoniMtBlack.ttf);
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url(../Roboto.ttf);
 }
 
 nav {
@@ -62,8 +68,9 @@ nav>ul>li {
 }
 
 #changing_image {
+	position: relative;
 	width: 100%;
-	bottom: 70px;
+	bottom: 100px;
 	min-width: 768px;
 }
 
@@ -78,7 +85,7 @@ nav>ul>li {
 #content {
 	margin: 10px;
 	background: white;
-	padding: 50px 15px;
+	padding: 15px 15px;
 	border: 5px;
 	border-radius: 20px;
 }
@@ -86,7 +93,7 @@ nav>ul>li {
 #company {
 	width: 100%;
 	text-align: center;
-	margin: 10px 0;
+	margin: 30px 0;
 }
 
 #company>h1 {
@@ -102,33 +109,35 @@ p {
 }
 
 .administrators {
-	margin: 70px 25%;
+	margin: 15px 10%;
+	padding: 0 5%;
 }
 
 .administrators>h1{
-	font-size: 2em;
+	font-size: 4em;
 	text-align: center;
-	margin: 15px 0;
-
+	margin: 25px 0;
 }
 
 .administrators img {
-	width: 200px;
+	width: 400px;
 	display: block;
-	margin: 0 auto;
+	margin: 10px auto;
 }
 
 .administrators h2 {
 	text-align: center;
 	margin: 15px 0;
-}
-
-.administrators article {
-	margin: 15px 0;
+	font-size: 2em;
 }
 
 .Person {
-	margin: 10px 0; 
+	margin: 40px 0;
+	text-align: center;
+}
+
+.Person p{
+	font-size: 1.2em;
 }
 
 .transformers {
@@ -147,5 +156,5 @@ p {
 .transformers img {
 	display: block;
 	margin: 0 auto;
-	width: 200px;
+	width: 500px;
 }
