@@ -52,5 +52,5 @@ function getFormData() {
 function getHelp() {
     "use strict";
     var formData = getFormData();
-    document.getElementById("response_article").innerHTML = formData;
+    document.getElementById("form_article").innerHTML = formData;
 }
