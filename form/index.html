@@ -17,14 +17,11 @@
         <li><a href="#">Form</a></li>
       </ul>
     </nav>
-
     <section class="top">
 			<h2 class="invisible">invisihead</h2>
       <img id="changing_image" src="../images/workers/Optimus.jpg" alt="Pretty graphics" title="Pretty graphics" />
     </section>
-
     <section id="formcontent">
-
       <h1>Find the perfect hands for your job</h1>
       <article id="form-article">
 				<h2 class="invisible">invisihead</h2>
@@ -46,8 +43,6 @@
                      title="Address cannot be blank." /><br />
               <input type="text" name="address2" id="address2" size="24" maxlength="32" />
             </div><br />
-                <label for="phonenumber" class="labelitem">Phone number:</label>
-              <input type="text" name="phonenumber" id="phonenumber" size="24" maxlength="15" placeholder="Enter phone number." required pattern="[0-9'\- ]*" title="Phone Number cannot be blank" ><br />
             <label for="city" class="labelitem">City:</label>
             <input type="text" name="city" id="city" size="24" maxlength="32"
                    placeholder="Enter city." required /><br />
@@ -77,6 +72,8 @@
             <input type="text" name="zipcode" id="zipcode" size="24" maxlength="10"
                    placeholder="Enter zip code." required pattern="\d{5}(\-\d{4})?"
                    title="xxxxx or xxxxx-xxxx" /><br />
+            <label for="phonenumber" class="labelitem">Phone number:</label>
+            <input type="text" name="phonenumber" id="phonenumber" size="24" minlength="10" maxlength="15" placeholder="Enter phone number." required pattern="[0-9'\- ]*" title="Phone Number cannot be blank" ><br />
           </fieldset>
           <fieldset>
             <legend>Job Needs</legend>
@@ -94,6 +91,8 @@
             </select><br />
             <label for="date_needed" class="labelitem">Date needed:</label>
             <input type="date" name="date_needed" id="date_needed" /><br />
+            <label for="description" class="labelitem">Description of Problem:</label>
+            <textarea name="description" id="description" rows="10" cols="20" placeholder="(Optional) Enter a description of the problem at hand."></textarea><br />
           </fieldset>
           <section id="reset_submit">
 						<h2 class="invisible">invisihead</h2>
@@ -106,6 +105,5 @@
 				<h2 class="invisible">invisihead</h2>
 			</article>
     </section>
-
   </body>
 </html>
