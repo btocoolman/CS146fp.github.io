@@ -57,9 +57,11 @@ function getFormData() {
     var zipcode = document.getElementById("zipcode").value.trim();
     var service = document.getElementById("service").value;
     var date_needed = document.getElementById("date_needed").value;
+    var desc = document.getElementById("description").value.trim();
     var str = "<h3><b>Response</b></h3>";
     str += "<p>" + fname + ", we found a perfect match for you!</p><br />";
     str += "<p>" + workers[service][0] + " will go to " + address1 + " on " + date_needed + " to help you!</p><br />";
+    str += "<br /><p>Your problem is: " + desc + "</p>";
     str += "<img src=\"../images/workers/" + workers[service][4] + "\"></img><br />";
     str += "<p>" + workers[service][3] + "</p>";
     return str;
