@@ -31,7 +31,7 @@ var workers = {
     6: ["Blackout",
         "Decepticon",
         "$150/hr",
-        "Loyal member of the decepticons. With a blaster on his chest and various blades he is already menace. For for special operations, he into a Pave Low helicopter. Also specialized for infiltration purposes.",
+        "Loyal member of the decepticons. With a blaster on his chest and various blades he is already menace. For for special operations, he into a Pave Low helicopter. However Blackout seems to have an affinity for carving turkeys. Give him a shot, you won't regret it.",
         "blackout.jpg"],
     7: ["Starscream",
         "Decepticon",
