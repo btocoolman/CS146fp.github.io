@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>Final Project</title>
+    <title>Dare to Dream</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="form.css" />
+		<link rel="stylesheet" type="text/css" href="../style.css" />
     <script type="text/javascript" src="form.js"></script>
-    <!--<script type="text/javascript" src="../imgchanger.js"></script>-->
+    <script type="text/javascript" src="../imgchngr.js"></script>
+		<link rel="icon" type="image/png" href="../images/mainpage/shia.png" />
   </head>
-  <body>
-    <nav>
+  <body class="otherbody">
+    <nav class="othernav">
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/form">Form</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about/index.html">About</a></li>
+        <li><a href="index.html">Form</a></li>
       </ul>
     </nav>
 
     <section class="top">
-        <img id="changing_image" src="../images/Optimus.jpg" alt="Pretty graphics" title="Pretty graphics" />
+			<h2 class="invisible">invisihead</h2>
+      <img id="changing_image" src="../images/workers/Optimus.jpg" alt="Pretty graphics" title="Pretty graphics" />
     </section>
 
-    <section id="content">
+    <section id="formcontent">
 
       <h1>Find the perfect hands for your job</h1>
       <article id="form-article">
+				<h2 class="invisible">invisihead</h2>
         <form name="form1" id="form1" autocomplete="off" method="get" onsubmit="getHelp(); return false;">
           <fieldset>
             <legend>User Info</legend>
@@ -92,12 +95,15 @@
             <input type="date" name="date_needed" id="date_needed" /><br />
           </fieldset>
           <section id="reset_submit">
+						<h2 class="invisible">invisihead</h2>
             <input type="reset" value="Reset" onclick="reset_form()" />
             <input type="submit" value="Submit" />
           </section><br />
         </form>
       </article>
-      <article id="resp-article"></article>
+      <article id="resp-article">
+				<h2 class="invisible">invisihead</h2>
+			</article>
     </section>
 
   </body>

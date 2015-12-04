@@ -1,0 +1,277 @@
+* {
+	margin: 0;
+	z-index: 0;
+}
+
+@font-face {
+	font-family: "Bodoni";
+	src: url(bodoniMtBlack.ttf);
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url(../Roboto.ttf);
+}
+
+#mainbody {
+	background: url(images/mainpage/background.png) no-repeat center fixed;
+	background-size: cover;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+.otherbody {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background: linear-gradient(to bottom, white, lightblue);
+	background-attachment: fixed;
+	font-family: "Roboto";
+}
+
+#mainnav {
+	background-color: rgba(214,158,101,.4);
+	border-radius: 0 0 10px 10px;
+	display: table;
+	width: 30%;
+	margin: auto;
+	padding: 4px;
+}
+
+.othernav {
+	background-color: rgba(214,158,101,.6);
+	border-radius: 0 0 10px 10px;
+	display: table;
+	width: 30%;
+	padding: 4px;
+	z-index: 1;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+nav a:link {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:active {
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+nav>ul {
+	display: table-row;
+	text-align: center;
+	list-style: none;
+}
+
+nav>ul>li {
+	font-family: "Bodoni";
+	font-size: 1.5em;
+	display: table-cell;
+}
+
+#mainsection {
+	margin-top: 30vh;
+}
+
+.invisible {
+	display:none;
+}
+
+.top {
+	z-index: 0;
+	height: 40vh;
+	width: 100vw;
+	overflow: hidden;
+}
+
+#changing_image {
+	position: relative;
+	width: 100%;
+	bottom: 70px;
+	min-width: 768px;
+}
+
+#formcontent>h1 {
+	font-size: 2.5em;
+	border-radius: 10px;
+	background-color: lightgray;
+	margin: 0 15%;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+#aboutcontent {
+	margin: 10px;
+	background: white;
+	padding: 15px 15px;
+	border: 5px;
+	border-radius: 20px;
+	min-width: 700px;
+}
+
+#company {
+	width: 100%;
+	text-align: center;
+	margin: 30px 0;
+}
+
+#company>h2 {
+	font-size: 3em;
+}
+
+#company>p {
+	font-size: 1.4em;
+}
+
+.administrators {
+	margin: 15px 10%;
+	padding: 0 5%;
+}
+
+.administrators>h2{
+	font-size: 4em;
+	text-align: center;
+	margin: 25px 0;
+	background-color: grey;
+	border-radius: 10px;
+}
+
+.administrators img {
+	width: 300px;
+	display: block;
+	margin: 10px auto;
+}
+
+.administrators h3 {
+	text-align: center;
+	margin: 15px 0;
+	font-size: 2em;
+}
+
+.Person {
+	margin: 40px 0;
+	text-align: center;
+	border: 2px black solid;
+}
+
+.Person p{
+	font-size: 1.2em;
+}
+
+.transformers {
+	margin: 100px 15%;
+}
+
+.transformers>h2 {
+	text-align: center;
+	font-size: 2em;
+}
+
+.transformers article{
+	margin: 10px 0;
+}
+
+.transformers h3{
+	font-size:1.2em;
+}
+
+.transformers p{
+	font-size: 1em;
+}
+
+.transformers img {
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+}
+
+#formcontent {
+	margin: 10px;
+	background: white;
+	padding: 25px 15px;
+	border: 5px;
+	border-radius: 20px;
+	min-width: 400px;
+}
+
+#form-article {
+	margin: 0 15%;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: lightgray;
+}
+
+.labelitem {
+	display: block;
+	float: left;
+	vertical-align: text-top;
+	width: 120px;
+	margin: 2px;
+	font-size: 1.2em;
+}
+
+.inputitem {
+	display: block;
+	float: left;
+}
+
+.otherbody br {
+	clear:left;
+}
+
+#logo {
+	display: block;
+	width: calc(535px/1.5);
+	height: calc(147px/1.5);
+	margin: 0 auto;
+}
+
+#slogan {
+	display: block;
+	width: calc(852px/1.2);
+	height: calc(70px/1.2);
+	margin: 0px auto;
+	margin-top: 5px;
+}
+
+#button {
+	display: block;
+	width: 286px;
+	height: 31px;
+	margin: 0px auto;
+	margin-top: 5px;
+}
+
+#button:hover {
+	background-color: white;
+	border-radius: 12px;
+	width: 286px;
+	height: 31px;
+	margin: 0px auto;
+	margin-top: 5px;
+}
+
+#reset_submit {
+	width: 112px;
+	margin: 15px auto 0 auto;
+}
+
+#summary_wrapper {
+	display: none;
+}
