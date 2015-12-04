@@ -5,100 +5,100 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="form.css" />
     <script type="text/javascript" src="form.js"></script>
-		<script type="text/javascript" src="../imgchanger.js"></script>
+    <!--<script type="text/javascript" src="../imgchanger.js"></script>-->
   </head>
   <body>
-		<nav>
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/about">About</a></li>
-				<li><a href="/form">Form</a></li>
-			</ul>
-		</nav>
-		
-		<section class="top">
-				<img id="changing_image" src="../images/Optimus.jpg" alt="Pretty graphics" title="Pretty graphics" />
-		</section>
-		
-		<section id="content">
-		
-			<h1>Find the perfect hands for your job</h1>
-			<article id="form-article">
-				<form name="form1" id="form1" autocomplete="off" method="get" onsubmit="getHelp(); return false;">
-					<fieldset>
-						<legend>User Info</legend>
-						<label for="firstname" class="labelitem">First name:</label>
-						<input type="text" name="firstname" id="firstname" size="24" maxlength="32"
-									 placeholder="Enter first name." required pattern="[a-zA-Z][a-zA-Z'\- ]*"
-									 title="First name cannot be blank." /><br />
-						<label for="lastname" class="labelitem">Last name:</label>
-						<input type="text" name="lastname" id="lastname" size="24" maxlength="32"
-									 placeholder="Enter last name." required pattern="[a-zA-Z][a-zA-Z'\- ]*"
-									 title="Last name cannot be blank." /><br />
-						<div class="labelitem"><label for="address1">Address:</label></div>
-						<div class="inputitem">
-							<input type="text" name="address1" id="address1" size="24" maxlength="32"
-										 placeholder="Enter street address." required pattern=".+"
-										 title="Address cannot be blank." /><br />
-							<input type="text" name="address2" id="address2" size="24" maxlength="32" />
-						</div><br />
-								<label for="phonenumber" class="labelitem">Phone number:</label>
-							<input type="text" name="phonenumber" id="phonenumber" size="24" maxlength="15" placeholder="Enter phone number." required pattern="[0-9'\- ]*" title="Phone Number cannot be blank" ><br />
-						<label for="city" class="labelitem">City:</label>
-						<input type="text" name="city" id="city" size="24" maxlength="32"
-									 placeholder="Enter city." required /><br />
-						<label for="state" class="labelitem">State:</label>
-						<select name="state" id="state" required>
-							<option value="" selected disabled>Choose a state</option>
-							<optgroup label="Mid-Atlantic">
-								<option value="Delaware">Delaware</option>
-								<option value="Washington, D.C.">Washington, D.C.</option>
-								<option value="Maryland">Maryland</option>
-								<option value="New Jersey">New Jersey</option>
-								<option value="New York">New York</option>
-								<option value="Pennsylvania">Pennsylvania</option>
-								<option value="Virginia">Virginia</option>
-								<option value="West Virginia">West Virginia</option>
-							</optgroup>
-							<optgroup label="New England">
-								<option value="Connecticut">Connecticut</option>
-								<option value="Maine">Maine</option>
-								<option value="Massachusetts">Massachusetts</option>
-								<option value="New Hampshire">New Hampshire</option>
-								<option value="Rhode Island">Rhode Island</option>
-								<option value="Vermont">Vermont</option>
-							</optgroup>
-						</select><br />
-						<label for="zipcode" class="labelitem">Zip code:</label>
-						<input type="text" name="zipcode" id="zipcode" size="24" maxlength="10"
-									 placeholder="Enter zip code." required pattern="\d{5}(\-\d{4})?"
-									 title="xxxxx or xxxxx-xxxx" /><br />
-					</fieldset>
-					<fieldset>
-						<legend>Job Needs</legend>
-						<label for="service" class="labelitem">Service Needed:</label>
-						<select name="service" id="service" required>
-							<option value="" selected disabled>Choose a service</option>
-								<option value="1">Smuggling Goods</option>
-								<option value="2">Fire</option>
-								<option value="3">Cruisin'</option>
-								<option value="4">Got a boo-boo?</option>
-								<option value="5">Need someone 'taken care of'</option>
-								<option value="6">Carve a Turkey</option>
-								<option value="7">Private Jet</option>
-								<option value="8">911</option>
-						</select><br />
-						<label for="date_needed" class="labelitem">Date needed:</label>
-						<input type="date" name="date_needed" id="date_needed" /><br />
-					</fieldset>
-					<section id="reset_submit">
-						<input type="reset" value="Reset" onclick="reset_form()" />
-						<input type="submit" value="Submit" />
-					</section><br />
-				</form>
-			</article>
-			<article id="resp-article"></article>
-		</section>
-		
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/form">Form</a></li>
+      </ul>
+    </nav>
+
+    <section class="top">
+        <img id="changing_image" src="../images/Optimus.jpg" alt="Pretty graphics" title="Pretty graphics" />
+    </section>
+
+    <section id="content">
+
+      <h1>Find the perfect hands for your job</h1>
+      <article id="form-article">
+        <form name="form1" id="form1" autocomplete="off" method="get" onsubmit="getHelp(); return false;">
+          <fieldset>
+            <legend>User Info</legend>
+            <label for="firstname" class="labelitem">First name:</label>
+            <input type="text" name="firstname" id="firstname" size="24" maxlength="32"
+                   placeholder="Enter first name." required pattern="[a-zA-Z][a-zA-Z'\- ]*"
+                   title="First name cannot be blank." /><br />
+            <label for="lastname" class="labelitem">Last name:</label>
+            <input type="text" name="lastname" id="lastname" size="24" maxlength="32"
+                   placeholder="Enter last name." required pattern="[a-zA-Z][a-zA-Z'\- ]*"
+                   title="Last name cannot be blank." /><br />
+            <div class="labelitem"><label for="address1">Address:</label></div>
+            <div class="inputitem">
+              <input type="text" name="address1" id="address1" size="24" maxlength="32"
+                     placeholder="Enter street address." required pattern=".+"
+                     title="Address cannot be blank." /><br />
+              <input type="text" name="address2" id="address2" size="24" maxlength="32" />
+            </div><br />
+                <label for="phonenumber" class="labelitem">Phone number:</label>
+              <input type="text" name="phonenumber" id="phonenumber" size="24" maxlength="15" placeholder="Enter phone number." required pattern="[0-9'\- ]*" title="Phone Number cannot be blank" ><br />
+            <label for="city" class="labelitem">City:</label>
+            <input type="text" name="city" id="city" size="24" maxlength="32"
+                   placeholder="Enter city." required /><br />
+            <label for="state" class="labelitem">State:</label>
+            <select name="state" id="state" required>
+              <option value="" selected disabled>Choose a state</option>
+              <optgroup label="Mid-Atlantic">
+                <option value="Delaware">Delaware</option>
+                <option value="Washington, D.C.">Washington, D.C.</option>
+                <option value="Maryland">Maryland</option>
+                <option value="New Jersey">New Jersey</option>
+                <option value="New York">New York</option>
+                <option value="Pennsylvania">Pennsylvania</option>
+                <option value="Virginia">Virginia</option>
+                <option value="West Virginia">West Virginia</option>
+              </optgroup>
+              <optgroup label="New England">
+                <option value="Connecticut">Connecticut</option>
+                <option value="Maine">Maine</option>
+                <option value="Massachusetts">Massachusetts</option>
+                <option value="New Hampshire">New Hampshire</option>
+                <option value="Rhode Island">Rhode Island</option>
+                <option value="Vermont">Vermont</option>
+              </optgroup>
+            </select><br />
+            <label for="zipcode" class="labelitem">Zip code:</label>
+            <input type="text" name="zipcode" id="zipcode" size="24" maxlength="10"
+                   placeholder="Enter zip code." required pattern="\d{5}(\-\d{4})?"
+                   title="xxxxx or xxxxx-xxxx" /><br />
+          </fieldset>
+          <fieldset>
+            <legend>Job Needs</legend>
+            <label for="service" class="labelitem">Service Needed:</label>
+            <select name="service" id="service" required>
+              <option value="" selected disabled>Choose a service</option>
+                <option value="1">Smuggling Goods</option>
+                <option value="2">Fire</option>
+                <option value="3">Cruisin'</option>
+                <option value="4">Got a boo-boo?</option>
+                <option value="5">Need someone 'taken care of'</option>
+                <option value="6">Carve a Turkey</option>
+                <option value="7">Private Jet</option>
+                <option value="8">911</option>
+            </select><br />
+            <label for="date_needed" class="labelitem">Date needed:</label>
+            <input type="date" name="date_needed" id="date_needed" /><br />
+          </fieldset>
+          <section id="reset_submit">
+            <input type="reset" value="Reset" onclick="reset_form()" />
+            <input type="submit" value="Submit" />
+          </section><br />
+        </form>
+      </article>
+      <article id="resp-article"></article>
+    </section>
+
   </body>
 </html>
