@@ -1,11 +1,11 @@
 var imageArray = ['../images/workers/Barricade.jpg',
                   '../images/workers/Bumblebee.jpg',
-                  '../images/workers/Fallen.jpg',
-                  '../images/workers/Megatron.jpg',
-								  '../images/workers/Optimus.jpg',
-								  '../images/workers/Ratchet.jpg',
-								  '../images/workers/SentinelPrime.jpg',
-								  '../images/workers/Starscream.jpg'];
+                  '../images/workers/ironhide.jpg',
+                  '../images/workers/blackout.jpg',
+		  '../images/workers/Optimus.jpg',
+		  '../images/workers/Ratchet.jpg',
+		  '../images/workers/SentinelPrime.jpg',
+		  '../images/workers/Starscream.jpg'];
 var imageIndex = 0;
 
 function nextImage(element) {
