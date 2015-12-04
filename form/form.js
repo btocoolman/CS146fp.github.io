@@ -60,7 +60,7 @@ function getFormData() {
     var str = "<h3><b>Response</b></h3>";
     str += "<p>" + fname + ", we found a perfect match for you!</p><br />";
     str += "<p>" + workers[service][0] + " will go to " + address1 + " on " + date_needed + " to help you!</p><br />";
-    str += "<img src=\"../images/" + workers[service][4] + "\"></img><br />";
+    str += "<img src=\"../images/workers/" + workers[service][4] + "\"></img><br />";
     str += "<p>" + workers[service][3] + "</p>";
     return str;
 }
